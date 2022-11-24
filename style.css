@@ -4,8 +4,12 @@
 }
 
 body{
-    background-color: rgb(149, 64, 88);
-    color: antiquewhite;
+    min-height: 100%;
+    height: 100vh;
+    background-image: url(/image/artistic-japanese-cherry-blossom-pagoda-sakura-hd-wallpaper-preview.jpg);
+    /*background-color: rgb(149, 64, 88);
+    */color: antiquewhite;
+    background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
