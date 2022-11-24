@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>
+            Fill the form:
+        </h2>
+        <form action="">
+            <div class="labels">
+                <label for="name">name:  </label>
+                <input type="text" id="name" class="textbox" placeholder="Enter text" maxlength="5" autofocus>
+            </div>
+            <div class="labels">
+                <label for="email">Email:  </label>
+                <input type="email" id="email"  class="textbox" placeholder="Enter you email" required>
+            </div>
+            <div class="labels">
+                <label for="pass">Phone:</label>
+                <input type="tel" id="pass"  class="textbox" placeholder="password">
+            </div>
+            <div class="labels">
+                <label for="refer">how did you hear about us?</label>
+                <select  name="refer" id="refer" class="textbox" required>
+                    <option value="" selected> select from the following...</option>
+                    <option value="friend">from a friend</option>
+                    <option value="google">from a search on google</option>
+                    <option value="social">from social media</option>
+                </select>
+            </div>
+            <div class="labels">
+                <label for="male">Gender: </label>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+            </div>
+            <div class="labels">
+                <label for="">which product did you use?</label>
+            </div>
+            <div class="labels">
+                <label for="t1">tea 1</label>
+                <input type="checkbox" name="tea" id="t1">
+                <label for="t2">tea 2</label>
+                <input type="checkbox" name="tea" id="t2">
+                <label for="t3">tea 3</label>
+                <input type="checkbox" name="tea" id="t3">
+            </div>
+            <div class="labels">
+                <label for="date">When did you buy the product:</label>
+                <input class="textbox" type="date" name="" id="date" min="2020-01-24">
+            </div>
+            <div class="labels">
+                <label for="file">Product photo:</label>
+                <input type="file" name="" id="file">
+            </div>
+            
+            
+            <div class="labels">
+                <button class="btn1" type="submit">send</button>
+                <input  class="btn2" type="reset" value="clear">   
+            </div>
+     </form>
+    
+     </div>   
+   
+
+</body>
+</html>
